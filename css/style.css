@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'BrizeuxNormal';
+    font-family: 'brizeuxnormal';
     src: url('../fonts/brizeux_normal-webfont.woff2') format('woff2'),
          url('../fonts/brizeux_normal-webfont.woff') format('woff');
     font-weight: normal;
@@ -14,7 +14,7 @@ body {
    background: linear-gradient(0deg, rgba(106,90,205,1) 0%, rgba(232,183,179,1) 46%, rgba(255,255,255,1) 100%);
    color: white;
    text-align: center;
-   font-family: 'BrizeuxNormal', sans-serif; /* Ajout de la police ici */
+    font-family: 'brizeuxnormal', sans-serif;
 }
 
 h1 {
