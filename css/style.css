@@ -46,6 +46,21 @@ a {
   max-width: 270px;
 }
 
+a:active {
+  animation: growShrink 0.5s ease, flash 0.5s ease;
+}
+
+@keyframes growShrink {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes flash {
+  0% { background-color: white; color: slateblue; }
+  50% { background-color: blue; color:white; }
+  100% { background-color: white; color: slateblue; }
+}
+
 a:hover {
     color: white;
     background-color: slateblue;
