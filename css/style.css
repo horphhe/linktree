@@ -6,10 +6,16 @@
     font-style: normal;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+}
+
 body {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh; 
     background: rgb(106, 90, 205);
     background: linear-gradient(0deg, rgba(106, 90, 205, 1) 0%, rgba(232, 183, 179, 1) 46%, rgba(255, 255, 255, 1) 100%);
     color: white;
@@ -77,3 +83,4 @@ a:hover {
     40% { transform: translateY(-10px); }
     60% { transform: translateY(-5px); }
 }
+
