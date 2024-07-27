@@ -44,6 +44,11 @@ a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s ease;
   max-width: 270px;
+display: block;
+}
+
+a.last-link {
+    margin-bottom: 20px;
 }
 
 a:active {
