@@ -34,7 +34,7 @@ h2 {
 .image1 {
     animation: bounce 2s infinite;
     border-radius: 75px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 a {
@@ -54,7 +54,7 @@ display: block;
 }
 
 a.last-link {
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 
 a:active {
